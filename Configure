@@ -1,0 +1,13 @@
+1.windows:
+  1.1install conda
+	anaconda windows x64
+  1.2add image&channel
+	conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
+  conda config --set show_channel_urls yes
+	1.3Install tensorflow
+	conda --install tensorflow
+	1.4install tensorboard
+	conda --install tensorboard
+	1.5tensorboard address add
+	cd to/logs/dir 
+	tensorboard logdir logs
